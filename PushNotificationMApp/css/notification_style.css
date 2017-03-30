@@ -1,0 +1,160 @@
+/*
+	MAIN
+*/
+
+.row-grid {
+	margin:0px;
+	padding-top: 7px;
+	width:100%;
+}
+.col-grid-3 {
+	display:inline-block; 
+	margin:0px; 
+	width:32%;
+}
+
+.ui-li-file-item:active {
+	background-color: lightgrey;
+} 
+.ui-li-del-file-item {
+	
+}
+
+.icon-active {
+   	background-color: white;
+   	cursor: pointer;
+}
+
+.icon-active:active {
+   	background-color: #5dd;
+   	cursor: pointer;
+}
+
+.icon-disabled {
+	background-color: #a8a8a8 !important;
+}
+.btn-text-disabled {
+	color: #a8a8a8 !important;
+}
+
+.icon-settings {
+  	display: inline-block;
+  	width: 32px;
+  	height: 32px;
+  	background-color: white;
+  	-webkit-mask-size: 32px 32px;
+  	-webkit-mask-image: url('../images/settings.png');
+  	-webkit-mask-repeat: no-repeat;
+}
+.icon-add-contacts {
+  	display: inline-block;
+  	width: 32px;
+  	height: 32px;
+  	background-color: white;
+  	-webkit-mask-size: 32px 32px;
+  	-webkit-mask-image: url('../images/add-a-contact-on-phone-interface-symbol-of-a-user-with-a-plus-sign.png');
+  	-webkit-mask-repeat: no-repeat;
+}
+.icon-send {
+  	display: inline-block;
+  	width: 32px;
+  	height: 32px;
+  	background-color: white;
+  	-webkit-mask-size: 32px 32px;
+  	-webkit-mask-image: url('../images/message.png');
+  	-webkit-mask-repeat: no-repeat;
+}
+.icon-back {
+  	display: inline-block;
+  	width: 32px;
+  	height: 32px;
+  	background-color: white;
+  	-webkit-mask-size: 32px 32px;
+  	-webkit-mask-image: url('../images/go-back-left-arrow.png');
+  	-webkit-mask-repeat: no-repeat;
+}
+.icon-register {
+  	display: inline-block;
+  	width: 32px;
+  	height: 32px;
+  	background-color: white;
+  	-webkit-mask-size: 32px 32px;
+  	-webkit-mask-image: url('../images/clipboard-with-pencil-.png');
+  	-webkit-mask-repeat: no-repeat;
+}
+.icon-save {
+  	display: inline-block;
+  	width: 32px;
+  	height: 32px;
+  	background-color: white;
+  	-webkit-mask-size: 32px 32px;
+  	-webkit-mask-image: url('../images/save-file-option.png');
+  	-webkit-mask-repeat: no-repeat;
+}
+.icon-ok {
+  	display: inline-block;
+  	width: 32px;
+  	height: 32px;
+  	background-color: green;
+  	-webkit-mask-size: 32px 32px;
+  	-webkit-mask-image: url('../images/ok-mark.png');
+  	-webkit-mask-repeat: no-repeat;
+}
+.icon-remove {
+  	display: inline-block;
+  	width: 32px;
+  	height: 32px;
+  	background-color: white;
+  	-webkit-mask-size: 32px 32px;
+  	-webkit-mask-image: url('../images/rubbish-bin.png');
+  	-webkit-mask-repeat: no-repeat;
+}
+.icon-add {
+  	display: inline-block;
+  	width: 32px;
+  	height: 32px;
+  	background-color: white;
+  	-webkit-mask-size: 32px 32px;
+  	-webkit-mask-image: url('../images/add-button.png');
+  	-webkit-mask-repeat: no-repeat;
+}
+
+.ui-footer {
+	display: block;
+	position: absolute;
+	bottom: 0px;
+  	height: auto;
+}
+.ui-footer-btn-text {
+	color: white;
+	font-size: 14px; 
+}
+.ui-message-block-left {
+	text-align: left
+}
+.ui-message-block-right {
+	text-align: right
+}
+.ui-chat-nickname {
+	display:inline;
+	font-size: 14px;
+	border-bottom: 1px solid black;
+	padding: 0px 5px 3px 5px;
+}
+.ui-message-text-block {
+	margin: 0px 0px 0px 0px; 
+	padding:0px 0px 0px 0px;
+}
+.iu-message-text {
+	display:inline-block; 
+	background-color: white; 
+	font-size: 16px; 
+	margin: 5px 0px 5px 0px; 
+	padding:5px 5px 5px 5px;
+}
+.ui-user-block {
+	position:relative; 
+	background-color:white;
+	padding: 10px 5px 10px 5px; 
+	margin:0px 0px 0px 0px;
+}
